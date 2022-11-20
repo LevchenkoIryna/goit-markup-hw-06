@@ -293,38 +293,39 @@
       </section>
     </main>
     <footer class="contacts">
-      <div class="container logo-box">
+      <div class="container footer-container">
         <div class="logo-block">
           <a href="" class="logo footer" lang="en"
             >Web<span class="logo-white">Studio</span></a
           >
-          <p class="text">приєднуйтесь</p>
-          <p class="footer-form-text text">підпишіться на розсилку</p>
+
+          <address class="address-box">
+            <ul class="list address-list">
+              <li class="link-box">
+                <a
+                  class="contacts-link-map font"
+                  href="https://goo.gl/maps/Nbyd7draAB5cvBSi6"
+                  target="_blank"
+                  rel="nooperer nofollow noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="link-box">
+                <a class="contacts-link font" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="link-box">
+                <a class="contacts-link font" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
-
-        <address class="address-box">
-          <ul class="list address-list">
-            <li class="link-box">
-              <a
-                class="contacts-link-map font"
-                href="https://goo.gl/maps/Nbyd7draAB5cvBSi6"
-                target="_blank"
-                rel="nooperer nofollow noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="link-box">
-              <a class="contacts-link font" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="link-box">
-              <a class="contacts-link font" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-
+        <!-- Link -->
+        <div class="join-link">
+          <p class="text">приєднуйтесь</p>
           <ul class="list footer-list">
             <li class="footer-block">
               <a
@@ -379,23 +380,26 @@
               </a>
             </li>
           </ul>
-          <form class="footer-form" name="footer_form">
-            <div class="footer-form-group">
-              <input
-                class="footer-form-border"
-                type="text"
-                name="subs_mail"
-                placeholder="E-mail"
-              />
-              <button class="footer-form-btn" type="submit">
-                Підписатися
-                <svg class="footer-form-btn-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#send"></use>
-                </svg>
-              </button>
-            </div>
-          </form>
-        </address>
+        </div>
+        <!-- Form -->
+
+        <form class="footer-form" name="footer_form">
+          <p class="footer-form-text text">підпишіться на розсилку</p>
+          <div class="footer-form-group">
+            <input
+              class="footer-form-border"
+              type="text"
+              name="subs_mail"
+              placeholder="E-mail"
+            />
+            <button class="footer-form-btn" type="submit">
+              Підписатися
+              <svg class="footer-form-btn-icon" width="24" height="24">
+                <use href="./images/sprite.svg#send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
